@@ -1,0 +1,114 @@
+personal_info:
+  name: Kurt Patrick Yu
+  title: DevOps Engineer
+  location: Philippines
+  linkedin: null
+  github: null
+
+summary: >
+  DevOps Engineer with 5+ years of remarkable experience in providing automation solutions
+  to incident management and application support. Keen at identifying patterns and areas for automation.
+  Adept at leveraging superior analytical skills to learn and adapt new tools.
+  Skilled communication abilities to convey innovative solutions to diverse audiences of varying technical expertise.
+
+skills:
+  ci_cd:
+    - GitHub Actions
+    - Jenkins
+  development:
+    - JavaScript
+    - TypeScript
+    - Shell
+    - Python
+  iac:
+    - AWS CDK
+    - Terraform
+    - Amplify
+  sql:
+    - MSSQL
+    - MySQL
+  web_development:
+    - HTML/CSS
+    - React
+  containerization_&_orchestration:
+    - Docker
+    - Kubernetes
+  data_visualization:
+    - Spotfire
+    - Periscope
+  version_control:
+    - Git
+
+interests:
+  - Game Development
+  - AI
+  - Utility Development
+
+experience:
+  - job_title: DevOps Engineer
+    company: Asurion Hong Kong Ltd., ROHQ
+    link: https://www.asurion.com/
+    location: null
+    start_date: Jun 2021
+    end_date: Nov 2023
+    responsibilities:
+      - Created automation processes to reduce routine task execution to seconds.
+      - Optimized deployment times through CI/CD pipeline creations and optimizations.
+      - Enhanced incident management processes, achieving faster debugging and resolution.
+      - Migrated Jenkins pipelines to GitHub Actions workflows.
+      - Designed and launched a centralized portal for non-production pipelines/scripts, decreasing support tickets by ~40%.
+      - Maintained APAC Kubernetes cluster for GitHub runners, reducing latency and improving builds.
+      - Delivered weekly updates and fixes for an internal AWS CDK tool.
+      - Built a CI/CD pipeline for AI model version control and deployment to AWS endpoints.
+
+  - job_title: Reports Engineer
+    company: Full Potential Solutions Inc.
+    link: https://www.fpsinc.com/
+    location: null
+    start_date: Apr 2019
+    end_date: Jul 2019
+    responsibilities:
+      - Developed and delivered client reports for data-driven decision making.
+      - Designed SQL queries that reduced runtime by ~90%.
+      - Collaborated with stakeholders to gather reporting requirements and improve functionality.
+
+  - job_title: Operations Engineer
+    company: Asurion Hong Kong Ltd., ROHQ
+    link: https://www.asurion.com/
+    location: null
+    start_date: Mar 2017
+    end_date: Mar 2019
+    responsibilities:
+      - Automated cloud footprint data extraction from AWS.
+      - Developed AWS usage reports that identified optimizations and decreased non-production cost by ~30%.
+
+education:
+  - degree: BS in Computer Science with specialization in Software Technology
+    school: De La Salle University
+    graduation_year: 2017
+    location: Philippines
+  
+  - degree: null
+    school: Bacolod Tay Tung High school
+    graduation_year: 2010
+    location: Philippines
+
+projects: 
+  - name: Crypto Crawler
+    description: A fully operational Python bot that connects to an exchange web socket that extracts real-time market data and automates entry/exit positions based on chosen strategy 
+    status: beta
+    start_date: 2023
+    end_date: null
+    image: cryptocrawler.png
+    link: null
+    github: null
+
+  - name: InternMe
+    description: A job portal site focused on internships.
+    status: defunct
+    start_date: 2013
+    end_date: 2015
+    image: internme.png
+    link: https://www.facebook.com/InternMe/
+    github: null
+
