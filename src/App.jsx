@@ -74,7 +74,7 @@ function App() {
 				<Home resume={resume} />
 				<About resume={resume} />
 				<Projects resume={resume} />
-				<Contact />
+				<Contact resume={resume}/>
 			</div>
 		</>
 	);
