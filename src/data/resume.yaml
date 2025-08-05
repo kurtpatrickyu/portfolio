@@ -87,11 +87,7 @@ education:
     school: De La Salle University
     graduation_year: 2017
     location: Philippines
-  
-  - degree: null
-    school: Bacolod Tay Tung High school
-    graduation_year: 2010
-    location: Philippines
+
 
 projects: 
   - name: Crypto Crawler
