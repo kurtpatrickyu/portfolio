@@ -22,6 +22,11 @@ function App() {
 		setResume(data);
 	}, []);
 
+	console.log("PRINT THIS");
+	console.log(import.meta.env.VITE_SERVICE_ID);
+    console.log(import.meta.env.VITE_TEMPLATE_ID);
+    console.log(import.meta.env.VITE_PUBLIC_KEY);
+
 	useEffect(() => {
 		if (resume) {
 			const parts = resume.personal_info.name.trim().split(" ");
