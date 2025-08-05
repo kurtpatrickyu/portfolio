@@ -21,7 +21,7 @@ export const Projects = ({ resume }) => {
                                     <img
                                         src={`${import.meta.env.BASE_URL}/projects/${project.image}`}
                                         alt={project.name}
-                                        className="w-full h-48 object-fill"
+                                        className="w-full h-48 object-cover"
                                     />
                                 )}
 
