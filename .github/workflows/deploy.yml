@@ -11,8 +11,8 @@ jobs:
 
     env:
       VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
-      VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.template_d33xlnw }}
-      VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.vRUCYzLT2VW9Rk9YO }}
+      VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
+      VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
 
     steps:
       - name: ⬇️ Checkout code
