@@ -8,11 +8,7 @@ export const Contact = () => {
         email: "",
         message: "",
     });
-
-    console.log(import.meta.env.VITE_SERVICE_ID);
-    console.log(import.meta.env.VITE_TEMPLATE_ID);
-    console.log(import.meta.env.VITE_PUBLIC_KEY);
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -35,7 +31,7 @@ export const Contact = () => {
             <RevealOnScroll>
                 <div className="px-4 w-full md:w-150">
                     <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
-                        {import.meta.env.VITE_PUBLIC_KEY}
+                        Get in Touch
                     </h2>
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div className="relative">
