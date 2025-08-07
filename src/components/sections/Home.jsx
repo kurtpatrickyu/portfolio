@@ -1,6 +1,8 @@
-import { RevealOnScroll } from "../RevealOnScroll";
+import { RevealOnScroll } from "@/components/RevealOnScroll";
+import { formatName } from "@/utils/formatName"
 
 export const Home = ({ resume }) => {
+    const { first, initials } = formatName(resume.personal_info.name);
     return (
         <section
             id="home"
@@ -9,7 +11,7 @@ export const Home = ({ resume }) => {
             <RevealOnScroll>
                 <div className="text-center z-10 px-4">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-200 to-green-600  bg-clip-text text-transparent leading-right">
-                        Hi, I'm Kurt P Y.
+                        Hi, I'm {first.charAt(0).toUpperCase() + first.slice(1).toLowerCase()} {initials.toUpperCase().split("").join(" ")}.
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">

@@ -3,14 +3,15 @@ import "./App.css";
 import "./index.css";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { LoadingScreen } from "./components/LoadingScreen";
-import { loadResume } from "./components/ResumeLoader";
-import { Navbar } from "./components/Navbar";
-import { MobileMenu } from "./components/MobileMenu";
-import { Home } from "./components/sections/Home";
-import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/Projects";
-import { Contact } from "./components/sections/Contact";
+import { LoadingScreen } from "@/components/LoadingScreen";
+import { loadResume } from "@/utils/loadResume";
+import { Navbar } from "@/components/Navbar";
+import { MobileMenu } from "@/components/MobileMenu";
+import { Home } from "@/components/sections/Home";
+import { About } from "@/components/sections/About";
+import { Projects } from "@/components/sections/Projects";
+import { Contact } from "@/components/sections/Contact";
+import { formatName } from "@/utils/formatName";
 
 
 function App() {
@@ -27,10 +28,7 @@ function App() {
 
 	useEffect(() => {
 		if (resume) {
-			const parts = resume.personal_info.name.trim().split(" ");
-
-			const first = parts[0]?.toLowerCase() || "";
-			const initials = parts.slice(1).map(name => name[0].toLowerCase()).join("")
+			const { first, initials } = formatName(resume.personal_info.name);
 
 			const title = initials ? `${first}.${initials}` : first;
 			setBrand(title);
