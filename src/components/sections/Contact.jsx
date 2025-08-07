@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { toast } from 'react-toastify';
 
 export const Contact = ({ resume }) => {
     const [formData, setFormData] = useState({
@@ -18,9 +19,11 @@ export const Contact = ({ resume }) => {
             e.target, 
             import.meta.env.VITE_PUBLIC_KEY
         ).then((result) => {
-            alert("Message Sent!");
-            setFormData({ name: "", email: "", message:"" })
-        }).catch(() => alert("Oops! Something went wrong. Please try again."));
+            toast.success('Message sent!');
+            setFormData({ name: "", email: "", message:"" });
+        }).catch((error) => {
+            toast.error("Oops! Something went wrong. Please try again.");
+        });
     };
 
     return (

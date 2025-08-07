@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import "./index.css";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { LoadingScreen } from "./components/LoadingScreen";
 import { loadResume } from "./components/ResumeLoader";
 import { Navbar } from "./components/Navbar";
@@ -9,6 +11,7 @@ import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
+
 
 function App() {
 	const [isLoaded, setIsLoaded] = useState(false);
@@ -69,12 +72,30 @@ function App() {
 	return (
 		<>
 			<div className="min-h-screen transition-opacity duration-700 bg-black text-gray-100">
-				<Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} brand={brand} activeSection={activeSection} />
-				<MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+				<Navbar 
+					menuOpen={menuOpen} 
+					setMenuOpen={setMenuOpen} 
+					brand={brand} 
+					activeSection={activeSection} 
+				/>
+				<MobileMenu 
+					menuOpen={menuOpen} 
+					setMenuOpen={setMenuOpen} 
+				/>
 				<Home resume={resume} />
 				<About resume={resume} />
 				<Projects resume={resume} />
 				<Contact resume={resume}/>
+				<ToastContainer 
+					position="top-center"
+					autoClose={3000}
+					hideProgressBar={false}
+					newestOnTop
+					closeOnClick
+					pauseOnHover
+					draggable
+					theme="dark"
+				/>
 			</div>
 		</>
 	);
