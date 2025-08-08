@@ -8,9 +8,11 @@ export const Projects = ({ resume }) => {
         >
             <RevealOnScroll>
                 <div className="max-w-5xl mx-auto px-4">
-                    <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
-                        Projects
-                    </h2>
+                    <div className="flex justify-center">
+                        <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
+                            Projects
+                        </h2>
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {resume.projects.map((project, key) => (
                             <div

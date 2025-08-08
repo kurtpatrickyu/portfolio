@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { LoadingScreen } from "@/components/LoadingScreen";
 import { loadResume } from "@/utils/loadResume";
 import { Navbar } from "@/components/Navbar";
-import { MobileMenu } from "@/components/MobileMenu";
 import { Home } from "@/components/sections/Home";
 import { About } from "@/components/sections/About";
 import { Projects } from "@/components/sections/Projects";
@@ -75,10 +74,6 @@ function App() {
 					setMenuOpen={setMenuOpen} 
 					brand={brand} 
 					activeSection={activeSection} 
-				/>
-				<MobileMenu 
-					menuOpen={menuOpen} 
-					setMenuOpen={setMenuOpen} 
 				/>
 				<Home resume={resume} />
 				<About resume={resume} />

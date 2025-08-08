@@ -8,9 +8,11 @@ export const About = ({ resume }) => {
         >
             <RevealOnScroll>
                 <div className="max-w-3xl mx-auto my-auto">
-                    <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
+                    <div className="flex justify-center">
+                        <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
                         About Me
                     </h2>
+                    </div>
                     <div className="rounded-xl p-8 border-white/10 border hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition">
                         <h2 className="text-3xl font-bold text-gray-300 mb-6 text-center">
                             Skills
@@ -26,7 +28,7 @@ export const About = ({ resume }) => {
                                     key={category}
                                     className="rounded-xl p-2 hover:-translate-y-1 transition-all"
                                 >
-                                    <h3 className="text-xl mb-2 cursor-pointer capitalize">
+                                    <h3 className="text-xl mb-2 cursor-pointer capitalize ">
                                         {category.replace(/_/g, ' ')}
                                     </h3>
                                     <div className="flex flex-wrap gap-2 mb-4">

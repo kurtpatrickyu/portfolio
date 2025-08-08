@@ -33,9 +33,11 @@ export const Contact = ({ resume }) => {
         >
             <RevealOnScroll>
                 <div className="px-4 w-full md:w-150">
-                    <h2 className="text-5xl font-bold mb-2 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
-                        Get in Touch
-                    </h2>
+                    <div className="flex justify-center">
+                        <h2 className="text-5xl font-bold mb-2 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent text-center">
+                            Get in Touch
+                        </h2>
+                    </div>
                     <p className="text-gray-400 max-w-lg mx-auto text-center mb-8">
                         {resume.contact_message}
                     </p>
