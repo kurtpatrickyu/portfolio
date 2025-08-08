@@ -10,7 +10,7 @@ export const Home = ({ resume }) => {
         >
             <RevealOnScroll>
                 <div className="text-center z-10 px-4">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-200 to-green-600  bg-clip-text text-transparent leading-right">
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-200 to-green-600 bg-clip-text text-transparent leading-right">
                         Hi, I'm {first.charAt(0).toUpperCase() + first.slice(1).toLowerCase()} {initials.toUpperCase().split("").join(" ")}.
                     </h1>
 

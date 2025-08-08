@@ -27,7 +27,7 @@ export const Navbar = ({ menuOpen, setMenuOpen, brand, activeSection }) => {
 				<div className="max-w-5xl mx-auto px-4">
 					<div className="flex justify-between items-center h-16">
 						<a href="#home" className="text-xl font-bold text-white">
-							{first}<span className="text-green-300">{extension}</span>
+							{first}<span className="bg-gradient-to-r from-green-100 to-green-800 bg-clip-text text-transparent">{extension}</span>
 						</a>
 
 						<div
