@@ -12,7 +12,7 @@ export const About = ({ resume }) => {
                         About Me
                     </h2>
                 </div>
-                <div className="max-w-350 mx-auto my-auto columns-1 md:columns-2 gap-6">
+                <div className="max-w-350 mx-auto my-auto columns-1 lg:columns-2 gap-6">
                     <div className="p-6 mb-6 rounded-xl border-white/10 border hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition break-inside-avoid">
                         <h2 className="text-3xl font-bold text-gray-300 mb-6 text-center">
                             Skills
@@ -22,13 +22,13 @@ export const About = ({ resume }) => {
                                 You can see probably my work experience.
                             </p> */}
 
-                        <div className="grid grid-cols-1 md:grid-cols-3">
+                        <div className="grid grid-cols-1 lg:grid-cols-3">
                             {Object.entries(resume.skills).map(([category, tools]) => (
                                 <div
                                     key={category}
                                     className="rounded-xl p-2 hover:-translate-y-1 transition-all"
                                 >
-                                    <h3 className="text-xl mb-2 capitalize cursor-default">
+                                    <h3 className="text-xl mb-2 capitalize cursor-default overflow-ellipsis">
                                         {category.replace(/_/g, ' ')}
                                     </h3>
                                     <div className="flex flex-wrap gap-2 mb-4">
