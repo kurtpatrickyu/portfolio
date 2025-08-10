@@ -12,7 +12,7 @@ export const About = ({ resume }) => {
                         About Me
                     </h2>
                 </div>
-                <div className="max-w-350 mx-auto my-auto columns-1 lg:columns-2 gap-6">
+                <div className="max-w-350 mx-auto my-auto columns-1 md:columns-2 gap-6">
                     <div className="p-6 mb-6 rounded-xl border-white/10 border hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition break-inside-avoid">
                         <h2 className="text-3xl font-bold text-gray-300 mb-6 text-center">
                             Skills
