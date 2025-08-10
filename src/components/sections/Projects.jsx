@@ -17,7 +17,7 @@ export const Projects = ({ resume }) => {
                         {resume.projects.map((project, key) => (
                             <div
                                 key={key}
-                                className="p-0 rounded-xl border border-white/10 cursor-pointer hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition overflow-hidden"
+                                className="flex flex-col p-0 rounded-xl border border-white/10 hover:shadow-[0_2px_8px_rgba(255,255,255,0.2)] transition overflow-hidden"
                             >
                                 {project.image && (
                                     <img
@@ -42,16 +42,18 @@ export const Projects = ({ resume }) => {
                                         {project.start_date} - {project.end_date ? project.end_date : "NOW"} ({project.status})
                                     </p>
                                 </div>
-                                <div>
-                                    {project.link && (
-                                        <a
-                                            href={project.link}
-                                            className="text-green-500 hover:text-green-300 transition-colors mx-6"
-                                        >
+                                
+                                <div className="mt-auto mb-4 md:mb-6 text-green-500 hover:text-green-300 transition-colors mx-6">
+                                    { project.link 
+                                    ? 
+                                        <a href={project.link}>
                                             View Project →
                                         </a>
-                                    )}
-                                    
+                                    :
+                                        <a href="#contact">
+                                            Contact me for more details ↓
+                                        </a>
+                                    }
                                 </div>
                             </div>
                         ))}

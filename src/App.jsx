@@ -51,8 +51,7 @@ function App() {
 				}
 			},
 			{
-				threshold: 0.2,
-				// rootMargin: "-20% 0px -50% 0px",
+				threshold: 0.2
 			}
 		);
 

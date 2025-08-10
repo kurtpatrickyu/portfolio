@@ -12,7 +12,7 @@ summary: >
   Skilled communication abilities to convey innovative solutions to diverse audiences of varying technical expertise.
 
 contact_message: >
-  Have a project in mind, need something automated, or just want to collaborate?
+  Have a project in mind, need something automated, or just want to connect?
   I'm always open to new opportunities. Feel free to reach out!
 
 skills:
@@ -98,7 +98,7 @@ projects:
     description: >
       A fully operational Python bot that connects to an exchange web socket that extracts real-time market data
       and automates entry/exit positions based on chosen strategy 
-    status: beta
+    status: private beta
     start_date: 2023
     end_date: null
     image: cryptocrawler.png

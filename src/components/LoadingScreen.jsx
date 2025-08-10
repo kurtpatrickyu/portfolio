@@ -27,8 +27,8 @@ export const LoadingScreen = ({ onComplete }) => {
             <div className="mb-4 text-2xl font-bold">
                 {text} <span className="animate-blink ml-1"> | </span>
             </div>
-            <div className="w-[200px] h-[2px] bg-gray-800 rounded relativ overflow-hidden">
-                <div className="w-[40%] h-full bg-green-500 shadow-[0_0_15px_rgba(86,224,58,0.2)] animate-loading-bar"></div>
+            <div className="w-[200px] md:w-[400px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
+                <div className="w-[40%] h-full bg-gradient-to-r bg-gray-800 to-green-800 shadow-[0_0_15px_rgba(86,224,58,0.2)] animate-loading-bar"></div>
             </div>
         </div>
     );

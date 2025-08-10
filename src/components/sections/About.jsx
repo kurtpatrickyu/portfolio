@@ -28,14 +28,14 @@ export const About = ({ resume }) => {
                                     key={category}
                                     className="rounded-xl p-2 hover:-translate-y-1 transition-all"
                                 >
-                                    <h3 className="text-xl mb-2 cursor-pointer capitalize ">
+                                    <h3 className="text-xl mb-2 capitalize cursor-default">
                                         {category.replace(/_/g, ' ')}
                                     </h3>
                                     <div className="flex flex-wrap gap-2 mb-4">
                                         {tools.map((tool) => (
                                             <span
                                                 key={tool}
-                                                className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm cursor-pointer
+                                                className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm cursor-default
                                             hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(86,224,58,0.2)] transition"
                                             >
                                                 {tool}
@@ -56,7 +56,7 @@ export const About = ({ resume }) => {
                                 {resume.education.map((education) => (
                                     <li
                                         key={education.school}
-                                        className="text-8xl font-bold mb-2 cursor-pointer hover:-translate-y-1 transition-all py-4"
+                                        className="text-8xl font-bold mb-2 hover:-translate-y-1 transition-all py-4"
                                     >
                                         <h3 className="text-2xl text-bold text-gray-400">{education.school}</h3>
                                         <p className="text-sm font-light text-gray-100">
@@ -79,7 +79,7 @@ export const About = ({ resume }) => {
                                 {resume.experience.map((experience) => (
                                     <li
                                         key={experience.start_date}
-                                        className="mb-2 cursor-pointer hover:-translate-y-1 transition-all py-4"
+                                        className="mb-2 hover:-translate-y-1 transition-all py-4"
                                     >
                                         <h3 className="text-2xl font-bold text-gray-400">{experience.job_title}</h3>
                                         <a 
