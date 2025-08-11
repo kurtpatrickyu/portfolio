@@ -6,7 +6,7 @@ personal_info:
   github: null
 
 summary: >
-  DevOps Engineer with 5+ years of remarkable experience in providing automation solutions
+  5+ years of remarkable experience in providing automation solutions
   to incident management and application support. Keen at identifying patterns and areas for automation.
   Adept at leveraging superior analytical skills to learn and adapt new tools.
   Skilled communication abilities to convey innovative solutions to diverse audiences of varying technical expertise.
@@ -94,6 +94,15 @@ education:
 
 
 projects: 
+  - name: Productivity Web app
+    description: > 
+      An immersive webapp with sprite rendering over some ambient SFX
+    status: in design
+    start_date: 2025
+    end_date: null
+    image: null
+    link: null
+
   - name: Crypto Crawler
     description: >
       A fully operational Python bot that connects to an exchange web socket that extracts real-time market data
@@ -103,7 +112,6 @@ projects:
     end_date: null
     image: cryptocrawler.png
     link: null
-    github: null
 
   - name: InternMe
     description: A job portal site focused on internships.
@@ -112,5 +120,3 @@ projects:
     end_date: 2015
     image: internme.png
     link: https://www.facebook.com/InternMe/
-    github: null
-

@@ -78,7 +78,7 @@ export const About = ({ resume }) => {
                             {resume.experience.map((experience) => (
                                 <li
                                     key={experience.start_date}
-                                    className="mb-2 hover:-translate-y-1 transition-all py-4"
+                                    className="mb-2 hover:-translate-y-1 transition-all"
                                 >
                                     <h3 className="text-2xl font-bold text-gray-400">{experience.job_title}</h3>
                                     <a 
@@ -92,7 +92,7 @@ export const About = ({ resume }) => {
                                         {experience.responsibilities.map((responsibility, key) =>
                                             <li 
                                                 key={key}
-                                                className="text-sm"
+                                                className="text-base mx-6"
                                             >
                                                 {responsibility}
                                             </li>
