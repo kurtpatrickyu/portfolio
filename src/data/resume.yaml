@@ -56,14 +56,15 @@ experience:
     start_date: Jun 2021
     end_date: Nov 2023
     responsibilities:
-      - Created automation processes to reduce routine task execution to seconds.
-      - Optimized deployment times through CI/CD pipeline creations and optimizations.
-      - Enhanced incident management processes, achieving faster debugging and resolution.
-      - Migrated Jenkins pipelines to GitHub Actions workflows.
-      - Designed and launched a centralized portal for non-production pipelines/scripts, decreasing support tickets by ~40%.
-      - Maintained APAC Kubernetes cluster for GitHub runners, reducing latency and improving builds.
-      - Delivered weekly updates and fixes for an internal AWS CDK tool.
-      - Built a CI/CD pipeline for AI model version control and deployment to AWS endpoints.
+      - Created automation processes to reduce routine task execution to seconds
+      - Optimized deployment times through CI/CD pipeline creations and optimizations
+      - Enhanced incident management processes in an Agile workflow, improving debugging/healthcheck efficiency, accelerating incident resolution, and addressing security vulnerabilities discovered during root cause analysis
+      - Identified and fixed application and infrastructure vulnerabilities, implementing secure coding practices and patch management to reduce security risks and ensure compliance
+      - Migrated Jenkins pipelines to GitHub Actions workflows
+      - Designed and launched a centralized portal for non-production pipelines/scripts, decreasing support tickets by ~40%
+      - •	Maintained the APAC Kubernetes cluster for GitHub runners in a Scrum team setting, reducing regional latency and improving build performance
+      - Delivered weekly updates and fixes for an internal AWS CDK tool
+      - Built a CI/CD pipeline for AI model version control and deployment to AWS endpoints
 
   - job_title: Reports Engineer
     company: Full Potential Solutions Inc.
@@ -72,9 +73,9 @@ experience:
     start_date: Apr 2019
     end_date: Jul 2019
     responsibilities:
-      - Developed and delivered client reports for data-driven decision making.
-      - Designed SQL queries that reduced runtime by ~90%.
-      - Collaborated with stakeholders to gather reporting requirements and improve functionality.
+      - Developed and delivered client reports for data-driven decision making
+      - Designed SQL queries that reduced runtime by ~90%
+      - Collaborated with stakeholders to gather reporting requirements and improve functionality
 
   - job_title: Operations Engineer
     company: Asurion Hong Kong Ltd., ROHQ
@@ -83,8 +84,8 @@ experience:
     start_date: Mar 2017
     end_date: Mar 2019
     responsibilities:
-      - Automated cloud footprint data extraction from AWS.
-      - Developed AWS usage reports that identified optimizations and decreased non-production cost by ~30%.
+      - Automated cloud footprint data extraction from AWS and Azure
+      - Developed Cloud usage reports that identified optimizations and decreased non-production cost by ~30%
 
 education:
   - degree: BS in Computer Science with specialization in Software Technology
@@ -114,7 +115,7 @@ projects:
     link: null
 
   - name: InternMe
-    description: A job portal site focused on internships.
+    description: A job portal site focused on internships
     status: defunct
     start_date: 2013
     end_date: 2015
