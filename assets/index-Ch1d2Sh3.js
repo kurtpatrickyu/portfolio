@@ -138,7 +138,7 @@ experience:
     responsibilities:
       - Created automation processes to reduce routine task execution to seconds
       - Optimized deployment times through CI/CD pipeline creations and optimizations
-      - Enhanced incident management processes in an Agile workflow, improving debugging/healthcheck efficiency, accelerating incident resolution, and addressing security vulnerabilities discovered during root cause analysis
+      - Enhanced incident management processes in an Agile workflow, improving debugging/healthcheck efficiency, accelerating incident resolution
       - Identified and fixed application and infrastructure vulnerabilities, implementing secure coding practices and patch management to reduce security risks and ensure compliance
       - Migrated Jenkins pipelines to GitHub Actions workflows
       - Designed and launched a centralized portal for non-production pipelines/scripts, decreasing support tickets by ~40%
